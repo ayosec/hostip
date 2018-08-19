@@ -21,3 +21,7 @@ Just type `host`
 $ hostip 
 10.0.0.17
 ```
+
+## Alternatives
+
+`hostname -i` returns the IP address of the hostname. If your DNS is aware of your host, and you don't have an alias to another IP (like `127.0.0.1` in `/etc/hosts`), using `hostname -i` may be enough for you.
